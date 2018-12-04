@@ -1,0 +1,1 @@
+package cn.cza.springboot.modules.sys.service;import java.util.List;/** * @Author: 车子昂 * @Date: 2018/12/3 0003 11:17 * @Description: */public interface SysUserService {    List<Long> queryAllMenuId(Long userId);}
