@@ -1,1 +1,0 @@
-package cn.cza.springboot.modules.sys.dao;import cn.cza.springboot.modules.sys.pojo.SysUserTokenEntity;import org.apache.ibatis.annotations.Mapper;/** * @Author: 车子昂 * @Date: 2018/12/3 0003 13:59 * @Description: */@Mapperpublic interface SysUserTokenDao {    SysUserTokenEntity queryByToken(String token);}
