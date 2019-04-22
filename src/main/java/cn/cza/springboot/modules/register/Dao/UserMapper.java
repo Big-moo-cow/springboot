@@ -1,6 +1,7 @@
 package cn.cza.springboot.modules.register.Dao;
 
 import cn.cza.springboot.modules.register.Pojo.User;
+import cn.cza.springboot.modules.register.utils.QueryUserRequest;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
@@ -55,5 +56,7 @@ public interface UserMapper {
      */
     int updateByPrimaryKey(User record);
 
-    List<User> selectUsersByPage(@Param("page") int page, @Param("size") int size);
+    List<User> selectUsersByPage(@Param("page") int page, @Param("size") int size, @Param("params") QueryUserRequest params);
+
+    int selectAll(QueryUserRequest params);
 }
