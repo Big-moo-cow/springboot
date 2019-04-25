@@ -1,0 +1,1 @@
+package cn.cza.springboot.modules.register.Service;import cn.cza.springboot.commons.utils.R;/** * @Author: 车子昂 * @Date: 2019-4-25 15:43 * @Description: */public interface CheckCodeService {    R send(String phone);}
