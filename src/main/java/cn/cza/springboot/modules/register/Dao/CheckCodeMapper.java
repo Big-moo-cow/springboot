@@ -1,0 +1,1 @@
+package cn.cza.springboot.modules.register.Dao;import cn.cza.springboot.modules.register.Pojo.CheckCode;import com.baomidou.mybatisplus.core.mapper.BaseMapper;import org.apache.ibatis.annotations.Mapper;/** * @Author: 车子昂 * @Date: 2019-4-26 14:18 * @Description: */@Mapperpublic interface CheckCodeMapper extends BaseMapper<CheckCode> {}

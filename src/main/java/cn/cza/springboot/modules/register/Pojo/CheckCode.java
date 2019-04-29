@@ -1,0 +1,1 @@
+package cn.cza.springboot.modules.register.Pojo;import com.baomidou.mybatisplus.annotation.TableName;import lombok.Data;/** * @Author: 车子昂 * @Date: 2019-4-26 14:08 * @Description: */@Data@TableName("user_checkcode")public class CheckCode {    private String phone;    private String checkcode;    private String isdel;}
