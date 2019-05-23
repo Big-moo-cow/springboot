@@ -1,0 +1,1 @@
+package cn.cza.springboot;import cn.cza.springboot.modules.register.Dao.UserMapper;import org.springframework.beans.factory.annotation.Autowired;/** * @Author: 车子昂 * @Date: 2019-4-20 17:36 * @Description: */public class test {    @Autowired    private static UserMapper userMapper;    public static void main(String[] args) {    }}
